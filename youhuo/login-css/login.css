@@ -1,0 +1,690 @@
+#login{
+    height:66px;
+    margin:0 auto;  
+    border-bottom: 2px solid #222;
+    margin: 0 0 20px;
+}
+.login-nav{
+    height:66px;
+    width:990px;
+    margin:0 auto;
+}
+.logo{
+    width:171px;
+    height:66px;
+    float:left;
+    line-height: 66px;
+}
+.logo>h1>a{
+    display:block;
+    width:171px;
+    height:40px;
+}
+.logo>h1>a>img{
+    vertical-align: middle;
+}
+.login-nav>ul{
+    float:right;
+    height:66px;
+    line-height: 66px;
+}
+.login-nav>ul>li{
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 28px;
+}
+.login-nav>ul>li>a{
+    color:#000;
+    font-weight: 400;
+}
+.login-nav>ul>li>span{
+    color:#000;
+    font-weight: 400;
+}
+.login-nav>ul>.login-font{
+    position: relative;
+}
+.login-nav>ul>.login-font:hover{
+    background:#eaeceb;
+}
+.login-nav>ul>.login-font>i{
+    display:inline-block;
+    width:7px;
+}
+.login-nav>ul>.login-font>ul{
+    position: absolute;
+    width: 74px;
+    left: 0;
+    background: #eaeceb;
+    z-index:9;
+    display:none;
+}
+.login-nav>ul>.login-font>ul>li{
+    padding: 0 10px 0 10px;
+    border-top: 1px solid #ddd;
+}
+.login-nav>ul>.login-font>ul>li>a{
+    color:#000;
+}
+.login-nav>ul>.login-font>.shang{
+    display:none;
+    font-size: 13px;
+}
+.login-nav>ul>.login-icon{
+    position: relative;
+}
+.login-nav>ul>.login-icon:hover{
+    background: #eaeceb;
+}
+.login-nav>ul>.login-icon>i{
+    display:inline-block;
+    width:7px;
+}
+.login-nav>ul>.login-icon>ul{
+    position: absolute;
+    width: 78px;
+    left: 0;
+    background: #eaeceb;
+    z-index: 9;
+    display:none;
+}
+.login-nav>ul>.login-icon>ul>li{
+    padding: 0 10px 0 10px;
+    border-top: 1px solid #ddd;
+    text-align: benter;
+}
+.login-nav>ul>.login-icon>ul>li>a{
+    color:#000;
+}
+.login-nav>ul>.login-icon>.shang{
+    display:none;
+    font-size: 13px;
+}
+
+
+#main{
+    height:715px;
+    margin:0 auto;
+}
+.main-box{
+    width:1150px;
+    height:715px;
+    margin:0 auto;
+}
+.main-top{
+    width:1150px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.main-top>h2{
+    width:990px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    background:#f5f5f5;
+    margin:auto;
+}
+.main-left{
+    float:left;
+    width:575px;
+    height:318px;
+    margin: 107px 0;
+    padding: 50px 0;
+    border-right: 1px solid #dfdfdf;
+}
+.main-left>a>img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 252px;
+    height: 190px;
+}
+.main-right{
+    float:left;
+    height:530px;
+    margin-top: 107px;
+    padding-left: 85px;
+}
+.right-box-top{
+    width: 270px;
+    height: 46px;
+    margin-bottom: 25px;
+    background-color: #fff;
+}
+.right-box-top-ma{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/sprite.passport.png);
+    background-size: 595px 298px;
+    float: right;
+    cursor: pointer;
+    background-position: -323px -108px;
+}
+.right-box-top-list{
+    width: 120px;
+    height: 30px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -323px -70px;
+    background-size: 595px 298px;
+    float: right;
+}
+.right-box-top-list>.wenzi{
+    margin-left: 18px;
+    margin-top: 6px;
+    color:#9b9b9b;
+    font-size: 12px;
+    display:block;
+}
+.right-box-top-list>.saoma{
+    margin-left: 18px;
+    margin-top: 6px;
+    color:#9b9b9b;
+    font-size: 12px;
+    display: none;
+}
+.right-box-bottom-list{
+    margin-bottom: 40px!important;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.right-box-bottom{
+    display:block;
+}
+.right-box-bottom-ma{
+    position: relative;
+    height:145px;
+    margin-bottom: 25px;
+}
+.right-box-bottom-ma-img{
+    position: absolute;
+    margin:auto;
+    text-align: center;
+    vertical-align: baseline;
+}
+.right-box-bottom-ma-img>img{
+    width:140px;
+    height:140px;
+    margin-left:65px;
+    position: relative;
+}
+.right-box-bottom-ma-tu{
+    width:165px;
+    height:150px;
+    background:url(../img/sprite.passport.png);
+    background-position:0 5px;
+    position: absolute;
+    right:-45px;
+    top:-10px;
+    display:none;
+}
+.right-box-bottom-img{
+    display: block;
+    width:29px;
+    height:27px;
+    background:url(../img/sprite.passport.png);
+    background-position:-477px -35px;
+    float:left;
+    margin-right: 15px;
+    margin-left: 40px;
+}
+.right-box-bottom-sao{
+    margin-bottom: 25px;
+}
+.right-box-bottom-sao>p{
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 15px;
+}
+.right-box-bottom-sao>span{
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 15px;
+}
+.right-box-bottom-te{
+    text-align: center;
+}
+.right-box-bottom-te>a{
+    color: red;
+    font-size: 13px;
+}
+
+
+
+.right-box-main{
+    width:270px;
+    display:none;
+}
+.right-box-main>li{
+    position: relative;
+    margin-bottom:25px;
+}
+
+
+
+.relative{
+    height:20px;
+    line-height: 20px;
+}
+.relative>h2{
+    float: left;
+    font-size: 20px;
+}
+.relative-box{
+    float:right;
+    color: #b9b9b9;
+    cursor: pointer;
+    font-size: 16px;
+}
+.relative-box>.font{
+    display:inline-block;
+    width:10px;
+    height:8px;
+    background:url(../img/sprite.scss.png);
+    background-position:-64px -86px;
+}
+.country-list{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 1;
+    display: none;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.relative-two .switch{
+    width: 270px;
+    height: 25px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -324px -1px;
+    background-size: 595px 298px;
+    border-radius: 13px;
+}
+.relative-two .switch .selected{
+    width:145px;
+    height:25px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -324px -36px;
+    color: #fff;
+}
+.relative-two .switch .bar{
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 13px;
+    cursor: pointer;
+    float:left;
+}
+
+
+
+
+.relative-three .username{
+    width: 268px;
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    color: #9a9a9a;
+    color: rgba(0,0,0,.5);
+    text-indent: 10px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.relative-three>.err-tip{
+    position: absolute;
+    top: 8px;
+    left: 285px;
+    padding: 6px 0;
+    color: red;
+    white-space: nowrap;
+    font-size: 14px;
+    display:none;
+}
+.relative-three>.err-tip>i{
+    display:inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -515px -36px;
+}
+
+
+
+
+.relative-clearfix{
+    display:none;
+}
+.relative-clearfix .account{
+    width: 268px;
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    color: #9a9a9a;
+    color: rgba(0,0,0,.5);
+    text-indent: 10px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.relative-clearfix>.err-phone{
+    position: absolute;
+    top: 8px;
+    left: 285px;
+    padding: 6px 0;
+    color: red;
+    white-space: nowrap;
+    font-size: 14px;
+    display:none;
+}
+.relative-clearfix>.err-phone>i{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -515px -36px;
+}
+
+
+
+.relative-captcha{
+    margin-top: 25px;
+    display:none;
+}
+.img-captcha>.img-captcha-header{
+    font-size: 13px;
+    line-height: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #b0b0b0;
+}
+.img-captcha>.img-captcha-header>a{
+    float: right;
+    font-size: 13px;
+    color: #ff1901;
+    cursor: pointer;
+    font-weight: 500;
+}
+.img-captcha>.img-captcha-main{
+    display:inline-block;
+    width: 270px;
+    height: 62px;
+    padding: 0;
+}
+.img-captcha>.img-captcha-main>.img-captcha-pics>.img-captcha-pic{
+    float: left;
+    background: hsla(0,0%,100%,0) no-repeat;
+    width: 60px !important;
+    height: 60px !important;
+    border: 1px solid #e0e0e0;
+    margin-right: 7px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.img-captcha>.img-captcha-main>.img-captcha-pics>.last-child{
+    margin-right: 0;
+}
+.img-captcha-pic>img {
+    width: 240px;
+    height: 240px;
+}
+.img-captcha-main .img-captcha-tip{
+    display:inline-block;
+    position: absolute;
+    height:19px;
+    left:0;
+    top:90px;
+    font-size:13px;
+    line-height:19px;
+    color:red;
+    display:none;
+}
+.img-captcha-main .img-captcha-tip>i{
+    display:block;
+    float:left;
+    width: 14px;
+    height: 14px;
+    font-size: 12px !important;
+    background-image: url(../img/sprite.scss.png);
+    background-position: -107px -22px;
+    margin-top: 2.5px;
+    margin-right:4px;
+}
+.img-captcha-main .img-captcha-tip>em{
+    float:left;
+}
+
+
+
+
+.relative-four{
+    display:block;
+}
+.relative-four .password{
+    width: 268px;
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    color: #9a9a9a;
+    color: rgba(0,0,0,.5);
+    text-indent: 10px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.relative-four>.err-pwd{
+    position: absolute;
+    top: 8px;
+    left: 285px;
+    padding: 6px 0;
+    color: red;
+    white-space: nowrap;
+    font-size: 14px;
+    display:none;
+}
+.relative-four>.err-pwd>i{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -515px -36px;
+}
+
+
+
+.relative-verification{
+    height:45px;
+    margin-top: 25px;
+    display:none;
+}
+.relative-verification .verification-code{
+    float: left;
+    width: 128px;
+    height:41px;
+    margin-right: 10px;
+}
+.relative-verification .change-captcha-sms {
+    float: left;
+    width: 128px;
+    font-size: 10px;
+    letter-spacing: 0;
+    display: block;
+    height: 45px;
+    background-color: #ff1901;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+.register-page li .send-captcha.disable {
+    background: #555;
+    cursor: default;
+}
+.relative-verification>.err-code{
+    position: absolute;
+    top: 8px;
+    left: 285px;
+    padding: 6px 0;
+    color: red;
+    white-space: nowrap;
+    font-size: 14px;
+    display: none;
+}
+.relative-verification>.err-code>i{
+    display:inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/sprite.passport.png);
+    background-position: -515px -36px;
+}
+
+
+
+
+.relative-five{
+    margin-top: 25px;
+}
+.img-five>.five-img-header{
+    font-size: 13px;
+    line-height: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #b0b0b0;
+}
+.img-five>.five-img-header>a{
+    float: right;
+    font-size: 13px;
+    color: #ff1901;
+    cursor: pointer;
+    font-weight: 500;
+}
+.five-img-main>.five-img-pics{
+    display:inline-block;
+    width: 270px;
+    height: 62px;
+    padding: 0;
+}
+.five-img-main>.five-img-pics>.five-img-pic{
+    float: left;
+    background: hsla(0,0%,100%,0) no-repeat;
+    width: 60px !important;
+    height: 60px !important;
+    border: 1px solid #e0e0e0;
+    margin-right: 7px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.five-img-main>.five-img-pics>.last-child{
+    margin-right: 0;
+}
+.five-img-pic>img {
+    width: 240px;
+    height: 240px;
+}
+.five-img-main .five-img-tip{
+    display:inline-block;
+    position: absolute;
+    height:19px;
+    left:0;
+    top:90px;
+    font-size:13px;
+    line-height:19px;
+    color:red;
+    display:none;
+}
+.five-img-main .five-img-tip>i{
+    display:block;
+    float:left;
+    width: 14px;
+    height: 14px;
+    font-size: 12px !important;
+    background-image: url(../img/sprite.scss.png);
+    background-position: -107px -22px;
+    margin-top: 2.5px;
+    margin-right:4px;
+}
+.five-img-main .five-img-tip>em{
+    float:left;
+}
+
+
+
+
+.login-btn {
+    display: block;
+    width: 100%;
+    height: 46px;
+    background-color: #ff1901;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+
+.other-opts{
+    color: #b9b9b9;
+    font-size: 14px;
+}
+.other-opts .remember-me{
+    cursor: pointer;
+    line-height: 18px;
+    height:18px;
+}
+.other-opts .remember-me>span{
+    display:block;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    border:2px solid #b9b9b9;
+    float:left;
+    margin-top:2px;
+    margin-right:3px;
+}
+.other-opts .remember-me>span>i{
+    display:block;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background:url(../img/sprite.passport.png);
+    background-position:-580px -35px;
+}
+.other-opts .right {
+    float: right;
+}
+
+
+
+
+
+.third-party-login{
+    width: 100%;
+    display: table;
+}
+.third-party-login a{
+    display: table-cell;
+    width: 67px;
+    background-size: 100% 100%;
+}
+.third-party-login .icon{
+    display:block;
+    width:30px;
+    height:30px;
+    margin: 0 auto;
+}
+.third-party-login .weixin{
+    background:url(../img/sprite.passport.png);
+    background-position: -527px -70px;
+}
+.third-party-login .weibo{
+    background:url(../img/sprite.passport.png);
+    background-position: -565px -70px;
+}
+.third-party-login .alipay{
+    background:url(../img/sprite.passport.png);
+    background-position: -451px -70px;
+}
